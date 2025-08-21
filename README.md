@@ -1,5 +1,5 @@
 
-# 🍎 Apple AiDP ML Engineer — 6‑Month Skill‑Building Plan (Milestones + LeetCode + Resources)
+#  6‑Month Skill‑Building Plan (Milestones + LeetCode + Resources)
 
 **Goal:** Strengthen CS fundamentals, MLOps/infra, and GenAI engineering for product‑grade ML roles (e.g., Apple AiDP).  
 **Time budget:** ~10–12 hrs/week (adjust up/down as needed).  
