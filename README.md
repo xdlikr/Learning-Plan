@@ -1,5 +1,5 @@
 
-# Apple AiDP ML Engineer — 6‑Month Skill‑Building Plan (Milestones + LeetCode + Resources)
+# 🍎 Apple AiDP ML Engineer — 6‑Month Skill‑Building Plan (Milestones + LeetCode + Resources)
 
 **Goal:** Strengthen CS fundamentals, MLOps/infra, and GenAI engineering for product‑grade ML roles (e.g., Apple AiDP).  
 **Time budget:** ~10–12 hrs/week (adjust up/down as needed).  
@@ -7,7 +7,7 @@
 
 ---
 
-## How to Use This Plan
+## 📋 How to Use This Plan
 - **Daily (Mon–Fri)** → 45–60 min DSA (LeetCode).  
 - **Project blocks (2–3×/week)** → 90–120 min each for hands‑on infra/GenAI work.  
 - **Weekly review** → 30 min: track solved problems, commits, what to improve.  
@@ -17,7 +17,7 @@
 
 ---
 
-## Month 1 — CS Sprint I + Docker Basics
+## 🏃‍♂️ Month 1 — CS Sprint I + Docker Basics
 **Focus:** Arrays/Strings, Hashing, Two‑Pointers/Sliding Window. Intro to Docker & FastAPI.
 
 ### Weekly breakdown
@@ -34,21 +34,30 @@
 - Queue/Stack (light): Valid Parentheses (20), Min Stack (155).
 
 ### Hands‑on
-- Build a **FastAPI** endpoint that returns a simple model’s prediction (e.g., sklearn logistic regression on UCI data).  
+- Build a **FastAPI** endpoint that returns a simple model's prediction (e.g., sklearn logistic regression on UCI data).  
 - **Containerize** it with Docker: `Dockerfile`, local run, brief README.
 
 ### Milestone deliverables
 - 30+ LeetCode problems solved, topic notes.  
 - Public repo: `fastapi-docker-hello-ml` (runs locally via `docker run`).
 
-**Resources**
-- DSA: NeetCode patterns or Sean Prashad patterns list.  
-- Docker: *What is a container?* (Docker docs).  
-- FastAPI docs (tutorial) and Python packaging basics.
+### 📚 Learning Resources
+- **DSA Fundamentals:**
+  - 📖 Book: "Cracking the Coding Interview" by Gayle Laakmann McDowell
+  - 🎥 Course: [NeetCode DSA Roadmap](https://neetcode.io/roadmap)
+  - 🔗 [Sean Prashad's LeetCode Patterns](https://seanprashad.com/leetcode-patterns/)
+  - 🔗 [Blind 75 LeetCode Questions](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
+
+- **Docker & FastAPI:**
+  - 📖 [Docker Official Documentation](https://docs.docker.com/get-started/)
+  - 🎥 [Docker Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=pg19Z8LL06w)
+  - 📖 [FastAPI Official Tutorial](https://fastapi.tiangolo.com/tutorial/)
+  - 🔗 [Real Python's FastAPI Tutorial](https://realpython.com/fastapi-python-web-apis/)
+  - 📝 [ML Model Serving with FastAPI Template](https://github.com/cosmic-cortex/fastAPI-ML-quickstart)
 
 ---
 
-## Month 2 — CS Sprint II + Model Tracking with MLflow
+## 📊 Month 2 — CS Sprint II + Model Tracking with MLflow
 **Focus:** Binary Search, Linked List, Intervals; MLflow tracking & Model Registry.
 
 ### Weekly breakdown
@@ -73,12 +82,23 @@
 - 25–30 LC problems (Binary Search / Linked List / Intervals).  
 - Repo: `mlflow-tracking-registry-demo` with run screenshots and README.
 
-**Resources**
-- MLflow *“Managing the ML lifecycle”* docs (Tracking, Model Registry).
+### 📚 Learning Resources
+- **Advanced DSA:**
+  - 📖 Book: "Elements of Programming Interviews" for deeper algorithm understanding
+  - 🎥 [Binary Search Patterns by NeetCode](https://www.youtube.com/watch?v=MHf3xpYwwSY)
+  - 🔗 [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+  - 📝 [Tech Interview Handbook - Linked Lists](https://www.techinterviewhandbook.org/algorithms/linked-list/)
+
+- **MLflow:**
+  - 📖 [MLflow Official Documentation](https://mlflow.org/docs/latest/index.html)
+  - 🎥 [MLflow End-to-End Tutorial](https://www.youtube.com/watch?v=859OxXrt_TI)
+  - 📝 [MLflow Model Registry Best Practices](https://databricks.com/blog/2020/06/25/announcing-mlflow-model-registry-on-databricks.html)
+  - 🔗 [MLflow Project Templates](https://github.com/mlflow/mlflow-example)
+  - 📖 [Reproducible ML with MLflow](https://www.packtpub.com/product/reproducible-machine-learning-with-mlflow/9781803243665)
 
 ---
 
-## Month 3 — Trees/Graphs + End‑to‑End Training/Serving
+## 🌲 Month 3 — Trees/Graphs + End‑to‑End Training/Serving
 **Focus:** Trees, BFS/DFS, Topological sort; automated training→serving pipeline.
 
 ### Weekly breakdown
@@ -101,12 +121,25 @@
 - 25–30 LC problems (Trees/Graphs).  
 - Repo: `ml-e2e-train-serve` with README diagrams (data→train→serve).
 
-**Resources**
-- Python packaging, virtualenv/poetry; testing with pytest; logging with structlog.
+### 📚 Learning Resources
+- **Trees & Graphs:**
+  - 📖 Book: "Grokking Algorithms" by Aditya Bhargava (excellent visual explanations)
+  - 🎥 [Tree Algorithms Explained](https://www.youtube.com/watch?v=fAAZixBzIAI)
+  - 🎥 [Graph Algorithms for Technical Interviews](https://www.youtube.com/watch?v=tWVWeAqZ0WU)
+  - 📝 [Visualizing Graph Algorithms](https://visualgo.net/en/graphds)
+  - 🔗 [Interactive Binary Tree Visualizations](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+
+- **ML Training & Serving:**
+  - 📖 [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) by Chip Huyen
+  - 🎥 [Building ML Pipelines with Python](https://www.youtube.com/watch?v=cESCQE9J3ZE)
+  - 📝 [Python Packaging Best Practices](https://python-packaging.readthedocs.io/en/latest/)
+  - 🔗 [Poetry for Python Dependency Management](https://python-poetry.org/docs/)
+  - 📖 [Testing ML Systems](https://www.manning.com/books/testing-machine-learning-systems)
+  - 🔗 [Structlog for Better Python Logging](https://www.structlog.org/en/stable/)
 
 ---
 
-## Month 4 — Dynamic Programming I + Cloud Deploy + CI/CD
+## ☁️ Month 4 — Dynamic Programming I + Cloud Deploy + CI/CD
 **Focus:** 1‑D DP patterns; deploy container to AWS/GCP; add CI/CD.
 
 ### Weekly breakdown
@@ -129,13 +162,25 @@
 - Public URL for inference.  
 - Repo: `ml-api-cloud-ci-cd` with pipeline badges and run logs.
 
-**Resources**
-- AWS ECS or GCP Cloud Run quickstarts.  
-- GitHub Actions docs; Twelve‑Factor App checklist (light).
+### 📚 Learning Resources
+- **Dynamic Programming:**
+  - 📖 Book: "Dynamic Programming for Coding Interviews" by Meenakshi & Kamal Rawat
+  - 🎥 [Dynamic Programming - Learn to Solve Algorithmic Problems](https://www.youtube.com/watch?v=oBt53YbR9Kk)
+  - 📝 [DP Patterns Cheat Sheet](https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns)
+  - 🔗 [Visualizing DP Solutions](https://visualgo.net/en/dp)
+
+- **Cloud Deployment & CI/CD:**
+  - 📖 [AWS ECS Workshop](https://ecsworkshop.com/)
+  - 📖 [GCP Cloud Run Documentation](https://cloud.google.com/run/docs)
+  - 🎥 [GitHub Actions for ML Workflows](https://www.youtube.com/watch?v=S-kn4mmlxFU)
+  - 📝 [CI/CD for Machine Learning](https://neptune.ai/blog/continuous-integration-and-continuous-deployment-for-machine-learning)
+  - 🔗 [The Twelve-Factor App Methodology](https://12factor.net/)
+  - 📖 [Building ML Pipelines](https://www.oreilly.com/library/view/building-machine-learning/9781492053187/) by O'Reilly
+  - 🔗 [ML Monitoring Best Practices](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)
 
 ---
 
-## Month 5 — GenAI: RAG + Evaluation + Prompt Tooling
+## 🤖 Month 5 — GenAI: RAG + Evaluation + Prompt Tooling
 **Focus:** RAG patterns, embeddings, retrieval, chunking, eval; LangChain or LlamaIndex.
 
 ### Weekly breakdown
@@ -155,12 +200,28 @@
 - Repo: `rag-demo` with notebook and API server.  
 - Report of retrieval metrics and sample queries.
 
-**Resources**
-- LangChain & LlamaIndex quickstarts; FAISS or Qdrant docs; prompt‑engineering guides.
+### 📚 Learning Resources
+- **RAG & LLM Engineering:**
+  - 📖 [Building LLM Powered Applications](https://www.oreilly.com/library/view/building-llm-powered/9781098150952/)
+  - 🎥 [RAG from Scratch](https://www.youtube.com/watch?v=qNk-3rqhVpY)
+  - 📝 [LangChain RAG Tutorial](https://python.langchain.com/docs/use_cases/question_answering/)
+  - 🔗 [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/)
+  - 📖 [Vector Databases for AI Applications](https://www.pinecone.io/learn/vector-database/)
+
+- **Embeddings & Vector Search:**
+  - 🎥 [Understanding Text Embeddings](https://www.youtube.com/watch?v=ArnMdc-ICCM)
+  - 📝 [FAISS Tutorial](https://www.pinecone.io/learn/faiss-tutorial/)
+  - 🔗 [Qdrant Documentation](https://qdrant.tech/documentation/)
+  - 📖 [Semantic Search at Scale](https://www.sbert.net/examples/applications/semantic-search/README.html)
+
+- **LLM Evaluation:**
+  - 📝 [RAGAS: Evaluation Framework for RAG](https://github.com/explodinggradients/ragas)
+  - 🔗 [LangSmith for LLM Evaluation](https://docs.smith.langchain.com/)
+  - 📖 [Evaluating LLM Responses](https://www.deeplearning.ai/short-courses/evaluating-debugging-llm-applications/)
 
 ---
 
-## Month 6 — K8s + Model Compression + Production Hardening
+## 🚀 Month 6 — K8s + Model Compression + Production Hardening
 **Focus:** Kubernetes fundamentals; quantization/distillation; autoscaling; caching/batching/streaming.
 
 ### Weekly breakdown
@@ -181,13 +242,31 @@
 - Repo: `ml-inference-k8s-compression` with manifests/Helm and benchmark table.  
 - Short report: latency, throughput, cost estimate vs. no‑compression.
 
-**Resources**
-- Kubernetes docs (Pods, Deployments, Services).  
-- PyTorch quantization docs; DistilBERT write‑ups; serving tips (batching, caching).
+### 📚 Learning Resources
+- **Kubernetes:**
+  - 📖 [Kubernetes: Up and Running](https://www.oreilly.com/library/view/kubernetes-up-and/9781492046523/)
+  - 🎥 [Kubernetes Crash Course](https://www.youtube.com/watch?v=s_o8dwzRlu4)
+  - 📝 [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+  - 🔗 [Minikube Tutorial](https://minikube.sigs.k8s.io/docs/start/)
+  - 📖 [Helm Charts Explained](https://helm.sh/docs/topics/charts/)
+
+- **Model Compression & Optimization:**
+  - 📖 [Efficient Deep Learning](https://www.oreilly.com/library/view/efficient-deep-learning/9781098118495/)
+  - 🎥 [PyTorch Quantization Tutorial](https://www.youtube.com/watch?v=c3MT2qV5c9Q)
+  - 📝 [Knowledge Distillation Techniques](https://neptune.ai/blog/knowledge-distillation)
+  - 🔗 [ONNX Runtime for Inference Optimization](https://onnxruntime.ai/)
+  - 📖 [Hugging Face Optimum Library](https://huggingface.co/docs/optimum/index)
+  - 🔗 [TensorRT for High-Performance Inference](https://developer.nvidia.com/tensorrt)
+
+- **ML Production Engineering:**
+  - 📖 [Machine Learning Engineering](http://www.mlebook.com/) by Andriy Burkov
+  - 🎥 [ML System Design Patterns](https://www.youtube.com/watch?v=P7n2aVwmHkU)
+  - 📝 [ML Caching Strategies](https://medium.com/nvidia-merlin/ml-caching-strategies-for-inference-optimization-ecd0eff30fa1)
+  - 🔗 [vLLM for Efficient LLM Serving](https://github.com/vllm-project/vllm)
 
 ---
 
-## Optional Months 7–9 — Interview Polish & Advanced Systems
+## 🎯 Optional Months 7–9 — Interview Polish & Advanced Systems
 **Focus:** ML systems design, behavioral narratives, deeper DP/graph; load testing; cost/perf tuning.
 
 **Outputs**
@@ -195,9 +274,26 @@
 - **Systems design** doc: data→features→training→registry→serving→monitoring→refresh.  
 - **Load test** with k6/locust; cost analysis (compute/storage/egress).
 
+### 📚 Learning Resources
+- **ML Systems Design:**
+  - 📖 [Machine Learning System Design Interview](https://www.amazon.com/Machine-Learning-System-Design-Interview/dp/1736049119)
+  - 🎥 [ML System Design Case Studies](https://www.youtube.com/watch?v=VPg2Uu1MgWM)
+  - 📝 [ML Design Patterns](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/)
+  - 🔗 [ML Systems Design Cheatsheet](https://github.com/chiphuyen/machine-learning-systems-design)
+
+- **Behavioral Interview Prep:**
+  - 📖 [The STAR Method: The Secret to Acing Your Next Job Interview](https://www.themuse.com/advice/star-interview-method)
+  - 🎥 [Behavioral Interview Techniques](https://www.youtube.com/watch?v=PJKYqLP6MRE)
+  - 📝 [Amazon Leadership Principles](https://www.amazon.jobs/en/principles)
+
+- **Performance Testing:**
+  - 🔗 [k6 Load Testing Documentation](https://k6.io/docs/)
+  - 🔗 [Locust - Open Source Load Testing Tool](https://locust.io/)
+  - 📝 [ML Infrastructure Cost Optimization](https://www.databricks.com/blog/2020/06/17/cost-optimization-for-azure-databricks.html)
+
 ---
 
-## Weekly DSA Template (repeat each month)
+## 📆 Weekly DSA Template (repeat each month)
 | Day | Topic keywords | Target |
 |---|---|---|
 | Mon | New pattern intro | 2–3 problems |
@@ -209,29 +305,87 @@
 **Pattern rotations**
 - Arrays/Hashing → Two Pointers/Sliding Window → Stack/Queue → Binary Search → Intervals → Linked List → Trees → Graphs → DP.
 
+### 💡 Study Tips
+- Use a spaced repetition system like Anki to review problem patterns
+- Create a personal DSA wiki/notebook with pattern templates
+- Join LeetCode contests to practice under time pressure
+- Form or join a study group for accountability
+- Record your thought process while solving problems to identify improvement areas
+
 ---
 
-## Validation Checklists (per milestone)
+## ✅ Validation Checklists (per milestone)
 - **Coverage**: ≥25 problems/month with spaced repetition on misses.  
 - **Infra**: One runnable repo/month with README, tests, and clear run steps.  
 - **Deploy**: At least one **public endpoint** by Month 4.  
 - **Perf**: Benchmarks by Month 6 (latency/throughput, with/without compression).  
 - **Storytelling**: Add wins/metrics to a living resume doc.
 
----
-
-## Quick Resource Pack
-- **LeetCode patterns**: searchable pattern lists (NeetCode / Sean Prashad).  
-- **Docker**: Containers & images overview (Docker docs).  
-- **Kubernetes**: Pods, Deployments, Services (k8s docs).  
-- **MLflow**: Tracking, Model Registry, Serving (official docs).  
-- **RAG**: Concept + vector stores (e.g., FAISS/Qdrant) and LangChain/LlamaIndex.  
-- **Compression**: PyTorch quantization, DistilBERT references.
+### 📊 Progress Tracking Tools
+- GitHub project boards for tracking project milestones
+- LeetCode progress tracker or custom spreadsheet
+- Weekly reflection journal to document learnings
+- Portfolio website to showcase completed projects
 
 ---
 
-## Stretch Goals (pick any)
+## 📚 Quick Resource Pack
+
+### 🧠 Algorithm & Data Structures
+- [NeetCode Roadmap & Solutions](https://neetcode.io/)
+- [Sean Prashad's LeetCode Patterns](https://seanprashad.com/leetcode-patterns/)
+- [AlgoExpert Platform](https://www.algoexpert.io/)
+- [Grokking the Coding Interview](https://www.educative.io/courses/grokking-the-coding-interview)
+
+### 🐳 Docker & Containerization
+- [Docker Official Documentation](https://docs.docker.com/)
+- [Docker for Data Science](https://towardsdatascience.com/docker-for-data-science-a-step-by-step-guide-1e5f7f3baf8e)
+- [Docker Compose Tutorial](https://docs.docker.com/compose/gettingstarted/)
+
+### ☸️ Kubernetes
+- [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+- [Kubernetes Learning Path](https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/)
+- [Kubernetes Patterns](https://www.oreilly.com/library/view/kubernetes-patterns/9781492050278/)
+
+### 📊 MLflow
+- [MLflow Documentation](https://mlflow.org/docs/latest/index.html)
+- [MLflow Tutorials](https://mlflow.org/docs/latest/tutorials-and-examples/index.html)
+- [MLflow Best Practices](https://databricks.com/blog/2020/05/07/databricks-runtime-for-machine-learning-is-now-generally-available.html)
+
+### 🤖 RAG & LLM Engineering
+- [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
+- [LlamaIndex Tutorials](https://docs.llamaindex.ai/en/stable/getting_started/starter_example.html)
+- [FAISS Documentation](https://github.com/facebookresearch/faiss/wiki)
+- [Qdrant Vector Database](https://qdrant.tech/documentation/)
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/index)
+
+### 🗜️ Model Compression & Optimization
+- [PyTorch Quantization](https://pytorch.org/docs/stable/quantization.html)
+- [DistilBERT Paper & Implementation](https://huggingface.co/docs/transformers/model_doc/distilbert)
+- [ONNX Runtime](https://onnxruntime.ai/docs/)
+- [TensorRT Documentation](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html)
+
+---
+
+## 🚀 Stretch Goals (pick any)
 - Replace FastAPI with **gRPC** for higher throughput.  
 - Add **feature store** (e.g., Feast) and **batch + online** retrieval.  
 - Try **KServe/Seldon** for model serving on K8s.  
 - Add **canary** or **blue‑green** deploys; integrate basic A/B evaluation.
+
+### 📚 Advanced Learning Resources
+- **gRPC:**
+  - 🔗 [gRPC Documentation](https://grpc.io/docs/)
+  - 🎥 [Building High-Performance APIs with gRPC](https://www.youtube.com/watch?v=OZ_Qmklc4zE)
+
+- **Feature Stores:**
+  - 🔗 [Feast Documentation](https://docs.feast.dev/)
+  - 📖 [Feature Store for ML](https://www.featurestore.org/)
+
+- **Advanced Model Serving:**
+  - 🔗 [KServe Documentation](https://kserve.github.io/website/)
+  - 🔗 [Seldon Core](https://docs.seldon.io/projects/seldon-core/en/latest/)
+
+- **Deployment Strategies:**
+  - 📝 [Canary Deployments with Kubernetes](https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/#canary-deployments)
+  - 🔗 [Argo Rollouts for Advanced Deployment](https://argoproj.github.io/argo-rollouts/)
